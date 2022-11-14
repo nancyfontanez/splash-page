@@ -167,5 +167,72 @@ body {
   background: #8e9eab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to bottom, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
   }
+
+  @media screen and (max-width: 1080px) {
+    .wrapper {
+      position: relative;
+      width: 1080px;
+      height: 100vh;
+      margin: auto;
+    }
+    .brand-img {
+      left: 60px;
+      top: 125px;
+    }
+    
+    .title {
+      left: 60px;
+      top: 336px;
+    }
+    
+    .text {
+      left: 60px;
+      top: 553px;
+    }
+    
+    .app-store-btn {
+      left: 60px;
+      top: 731px;
+    }
+    
+    .google-play-btn {
+      left: 230px;
+      top: 731px;
+    }
+    
+    .main-image-container {
+      left: 435px;
+      top: 379.73px;
+    }
+    
+    .profile-img {
+      left: 520px;
+      top: 929px;
+    }
+    
+    .product-img {
+      left: 520px;
+      top: 1400px;
+    }
+    
+    .orders-img {
+      left: 280px;
+      top: 1156px;
+    }
+    
+    .cart-img {
+      left: 60px;
+      top: 1400px;
+    }
+    
+    .home-img {
+      left: 740px;
+      top: 1148px;
+    }
+
+    .background-toggles {
+      top: 140px;
+      display: flex;
+    }
+  } 
